@@ -1,0 +1,137 @@
+[
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": -1,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "lastname": "Doe",
+        "totalprice": 11,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "totalprice": 11,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 11,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 11,
+        "depositpaid": true,
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 11,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        }
+    },
+    {
+        "firstname": 1,
+        "lastname": "Doe",
+        "totalprice": 150,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 150,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "-1-10-01",
+            "checkout": "-1-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 11,
+        "depositpaid": 1,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 11,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": 1,
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 11,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": 1
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 11,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-10-01",
+            "checkout": "2023-10-10"
+        },
+        "additionalneeds": 1
+    },
+    {}
+]
