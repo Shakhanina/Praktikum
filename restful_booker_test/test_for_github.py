@@ -26,6 +26,6 @@ data = {
         "additionalneeds": "Breakfast"
     }
 
-
-response = create_booker(BASE_URl, data)
-assert response.status_code == 200
+def test_for_github():
+    response = create_booker(BASE_URl, data)
+    assert response.status_code == 200
