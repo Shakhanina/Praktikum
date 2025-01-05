@@ -29,15 +29,15 @@ data = {
 def test_valid_create(data):
     auth_data, create_data = data['auth'], data['create_booking']
     auth_response = auth(BASE_URl, auth_data)
-    assert auth_response.status_code == 200
+    assert auth_response.status_code == 200, auth_response
     token = auth_response.json()['token']
 
     create_response = create_booker(BASE_URl, create_data)
-    assert create_response.status_code == 200
+    assert create_response.status_code == 200, create_response
     validate(instance=create_response.json(), schema=booking_schema)
     bookingid = create_response.json()['bookingid']
 
     delete_response = delete_booker(BASE_URl, bookingid, token)
-    assert delete_response.status_code == 201
+    assert delete_response.status_code == 201, delete_response
 
 file.close()

@@ -21,7 +21,7 @@ def test_creat_booking():
     }
 
     response = create_booker(BASE_URl, data)
-    assert response.status_code == 200
+    assert response.status_code == 200, response
 
     validate(instance=response.json(), schema=booking_schema)
 
@@ -37,6 +37,6 @@ def test_creat_booking():
 
     delete_response = delete_booker(BASE_URl, booking_id, token)
 
-    assert delete_response.status_code == 201
+    assert delete_response.status_code == 201, delete_response
 
 file.close()
